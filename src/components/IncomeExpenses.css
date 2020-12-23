@@ -1,0 +1,24 @@
+.incomeExpenses{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-top: 1px solid #009688;
+}
+.incomeExpenses .plus,.incomeExpenses .minus{
+    border: 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+.incomeExpenses .plus{
+    color: #004d40;
+}
+.incomeExpenses .minus{
+    color: #c62828;
+}
+.income{
+
+}
+.expense{
+
+}

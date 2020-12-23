@@ -1,0 +1,46 @@
+.addTransaction{
+    padding-top: 10px;
+    border-top: 1px solid #009688;
+    margin-top: 15px;
+}
+.addTransaction form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.addTransaction form .form-control:first-child{
+    margin-top: 5px;
+}
+.addTransaction form .form-control{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.addTransaction form .form-control label{
+    font-size: 14px;
+}
+.addTransaction form .form-control button,.addTransaction form .form-control input{
+    outline: 0;
+    border: 0;
+    padding: 5px;
+    border-radius: 3px;
+}
+.addTransaction form .form-control button{
+    background-color: #009688;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+}
+@media(max-width:480px){
+    .addTransaction{
+        position: fixed;
+        bottom: 0;
+        padding: 20px;
+        width: 100%;
+        left: 0;
+        background-color: #b2dfdb;
+    }
+}

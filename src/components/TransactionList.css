@@ -1,0 +1,30 @@
+.transaction-lists{
+    list-style: none;   
+    display: flex;
+    flex-direction: column;
+    max-height: 150px;
+    overflow-y: overlay;
+    overflow-x: hidden;
+}
+.transaction-lists::-webkit-scrollbar{
+    width: 5px;
+}
+.transaction-lists::-webkit-scrollbar-thumb{
+    background-color: #004d40;
+    border-radius: 50px;
+}
+.transaction-lists::-webkit-scrollbar-track{
+    background-color: #b2dfdb;
+}
+.transaction-lists-heading{
+    padding-top: 15px;
+    margin-bottom: 5px;
+    border-top: 1px solid #009688;
+}
+@media(max-width:480px){
+    .transaction-lists{
+        margin-bottom: 220px;
+        max-height: 100%;
+        overflow: unset;
+    }
+}
